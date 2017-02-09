@@ -1,0 +1,18 @@
+{
+  "name": "coff/php-api-datasource",
+  "description": "API package for DataSource class",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Kubanek",
+      "email": "krzysztof.kubanek@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Coff\\DataSource\\": "."
+    }
+  }
+}
