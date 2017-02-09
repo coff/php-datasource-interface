@@ -2,7 +2,7 @@
 
 namespace Coff\DataSource;
 
-use Coff\Exception\DataSourceException;
+use Coff\DataSource\Exception\DataSourceException;
 
 /**
  * Interface DataSourceInterface

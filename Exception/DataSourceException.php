@@ -1,6 +1,6 @@
 <?php
 
-namespace Coff\Exception;
+namespace Coff\DataSource\Exception;
 
 /**
  * DataSourceException
