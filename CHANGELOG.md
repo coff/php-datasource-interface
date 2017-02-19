@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.4
+
+`Stateful*` interface/trait introduced to distinguish from non-stateful one.
+
 ## 0.0.3
 
 Improved PSR-4 directory setup.
