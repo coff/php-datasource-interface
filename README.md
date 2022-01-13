@@ -1,3 +1,3 @@
-# php-api-datasource
+# php-datasource-interface
 
-API package for DataSource
+Interface package for DataSource class
