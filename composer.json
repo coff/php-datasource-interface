@@ -1,6 +1,6 @@
 {
-  "name": "coff/php-api-datasource",
-  "description": "API package for DataSource class",
+  "name": "coff/php-datasource-interface",
+  "description": "Interface package for DataSource class",
   "minimum-stability": "stable",
   "type": "library",
   "license": "MIT",
