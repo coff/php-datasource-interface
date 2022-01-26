@@ -49,7 +49,11 @@ abstract class AsyncDataSource extends DataSource implements AsyncDataSourceInte
      */
     public function awaitReply()
     {
-        $res = stream_select($a=array($this->stream), $w=null, $o=null, 0, $this->awaitTime);
+        $a=array($this->stream);
+        $w=null;
+        $o=null;
+
+        $res = stream_select($a, $w, $o, 0, $this->awaitTime);
         if (false === $res) {
             return false;
         }
